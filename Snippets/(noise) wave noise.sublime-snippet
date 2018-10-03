@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Wave "1-2*rand"
+]]></content>
+    <tabTrigger>noise</tabTrigger>
+    <scope>source.uhm</scope>
+    <description>Wave "1-2*rand"</description>
+</snippet>

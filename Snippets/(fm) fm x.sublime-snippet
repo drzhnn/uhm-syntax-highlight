@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Wave "sin(2*pi*phase + x)"
+]]></content>
+    <tabTrigger>fm</tabTrigger>
+    <scope>source.uhm</scope>
+    <description>Wave "sin(2*pi*phase + x)"</description>
+</snippet>

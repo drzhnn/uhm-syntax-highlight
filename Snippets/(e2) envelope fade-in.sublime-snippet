@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Envelope L0=0 T1=1 L1=1
+]]></content>
+    <tabTrigger>e2</tabTrigger>
+    <scope>source.uhm</scope>
+    <description>Fade-in envelope</description>
+</snippet>

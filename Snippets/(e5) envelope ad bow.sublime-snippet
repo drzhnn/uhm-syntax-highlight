@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Envelope L0=0 T1=0.8 L1=1 T2=0.2 L2=0
+]]></content>
+    <tabTrigger>e5</tabTrigger>
+    <scope>source.uhm</scope>
+    <description>AD bow envelope</description>
+</snippet>

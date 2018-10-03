@@ -1,0 +1,83 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+name: UHM
+file_extensions: uhm
+scope: source.uhm
+
+contexts:
+  main:
+    - match: '//.+'
+      scope: comment.uhm
+
+    - match: "'"
+      scope: invalid.illigal.uhm
+
+    - match: '^Info\s'
+      scope: storage.type.uhm
+      push: info
+
+    - match: '^Import\s'
+      scope: storage.type.uhm
+      push: import
+
+    - match: '\b(Wave|Spectrum|Phase|Seed|Interpolate|Normalize|NumFrames|Envelope|Import|Move)\b'
+      scope: storage.type.uhm
+
+    - match: '(?i)\b(start|end|to|from|direction|lowest|highest|curve|type|target|blend|base|db|metric|snippets|threshold|weighting)\b'
+      scope: variable.parameter.function-call.uhm markup.italic.uhm
+
+    - match: '\b(L[0-8])\b|\b(T[0-8])\b'
+      scope: variable.parameter.function-call.uhm markup.italic.uhm
+
+    - match: '\b(replace|add|sub|multiply|multiplyAbs|divide|divideAbs|min|max|all|each|quadric|linear|exponential|peak|rms|average|ptp|morph1|morph2|switch|crossfade|spectrum|zerophase|forward|fwd|backward)\b'
+      scope: text.uhm markup.italic.uhm
+
+    - match: '\b(rand|randf|rands)\b'
+      scope: text.uhm
+
+    - match: '\b(e|pi)\b'
+      scope: text.uhm
+
+    - match: '\b(phase|table|index|frame)\b'
+      scope: text.uhm
+
+    - match: '\b(x|y)\b'
+      scope: text.uhm
+
+    - match: '\b([0-9]+)\b'
+      scope: text.uhm
+
+    - match: '"'
+      scope: punctuation.definition.arguments.uhm
+
+    - match: '\(|\)'
+      scope: punctuation.separator.uhm
+
+    - match: ','
+      scope: punctuation.separator.uhm
+
+    - match: '\b(acos|asin|atan|atan2|cos|cosh|sin|sinh|tan|tanh|abs|ceil|floor|frac|round|select|exp|fac|ln|log10|pow|sqrt|lin_db|db_lin)\b'
+      scope: support.function.uhm
+
+    - match: '\b(env|lowpass|bandpass|highpass|main_fi|main_fp|aux1_fi|aux1_fp|aux2_fi|aux2_fp)\b'
+      scope: support.function.builtin.uhm
+
+    - match: '\b(aux1|aux2|main)\b'
+      scope: text.uhm markup.bold.uhm
+
+    - match: '\+|\-|\*|\/|%|\^|\<|\>|!'
+      scope: keyword.operator.uhm
+
+    - match: '='
+      scope: keyword.operator.assignment.uhm
+
+  info:
+    - match: '".+"'
+      scope: string.uhm
+      pop: true
+
+  import:
+    - match: '".+"'
+      scope: string.uhm
+      pop: true

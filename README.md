@@ -4,7 +4,7 @@ Preliminary version of ST3 syntax highlighter for preliminary version of [Hive][
 [1]: https://u-he.com/products/hive/
 [2]: https://www.kvraudio.com/forum/viewtopic.php?f=31&t=511390
 
-Work in progress. Use at you own risk.
+Work in progress. Use at your own risk.
 
   
 ## Install

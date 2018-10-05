@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+Phase "rands * 2 * pi - pi"
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>reset</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.uhm</scope>
+    <description>Reset phase</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+Interpolate start=0 end=50 type=${1:spectrum}
+Interpolate start=51 end=100 type=${1:spectrum}
+Interpolate start=101 end=150 type=${1:spectrum}
+Interpolate start=151 end=200 type=${1:spectrum}
+Interpolate start=200 end=255 type=${1:spectrum}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>5i</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.uhm</scope>
+    <description>5-zone interpolation</description>
+</snippet>

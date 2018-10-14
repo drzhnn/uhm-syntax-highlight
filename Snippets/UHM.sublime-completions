@@ -4,12 +4,12 @@
 
     "completions": [
         { "trigger": "inf\tInfo", "contents": "Info \"$0\"" },
-        { "trigger": "int\tInterpolate", "contents": "Interpolate $0" },
+        { "trigger": "int\tInterpolate", "contents": "Interpolate type=morph2$0" },
         { "trigger": "wav\tWave", "contents": "Wave \"$0\"" },
         { "trigger": "spe\tSpectrum", "contents": "Spectrum \"$0\"" },
         { "trigger": "pha\tPhase", "contents": "Phase \"$0\"" },
         { "trigger": "env\tEnvelope", "contents": "Envelope $0" },
-        { "trigger": "nor\tNormalize", "contents": "Normalize $0" },
+        { "trigger": "nor\tNormalize", "contents": "Normalize base=each$0" },
         { "trigger": "see\tSeed", "contents": "Seed = $0" },
         { "trigger": "num\tNumFrames", "contents": "NumFrames = $0" },
         { "trigger": "imp\tImport", "contents": "Import \"$0\"" },

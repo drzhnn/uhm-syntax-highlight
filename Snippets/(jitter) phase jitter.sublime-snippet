@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Phase "x + rand*0.5"
+Phase "main + rand*0.5"
 ]]></content>
     <tabTrigger>jitter</tabTrigger>
     <scope>source.uhm</scope>

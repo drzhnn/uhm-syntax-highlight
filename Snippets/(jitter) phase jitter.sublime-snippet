@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Phase "x + rand*0.5"
+]]></content>
+    <tabTrigger>jitter</tabTrigger>
+    <scope>source.uhm</scope>
+    <description>Phase jitter</description>
+</snippet>

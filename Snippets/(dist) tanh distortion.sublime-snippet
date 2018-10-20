@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Wave "tanh(x*1.0)"
+]]></content>
+    <tabTrigger>dist</tabTrigger>
+    <scope>source.uhm</scope>
+    <description>tanh distortion</description>
+</snippet>

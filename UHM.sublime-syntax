@@ -11,7 +11,7 @@ contexts:
       scope: comment.uhm
 
     - match: "'"
-      scope: invalid.illigal.uhm
+      scope: invalid.illegal.uhm
 
     - match: '^Info\s'
       scope: storage.type.uhm

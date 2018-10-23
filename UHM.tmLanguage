@@ -38,7 +38,7 @@
 				<key>match</key>
 				<string>'</string>
 				<key>scope</key>
-				<string>invalid.illigal.uhm</string>
+				<string>invalid.illegal.uhm</string>
 			</dict>
 			<dict>
 				<key>match</key>

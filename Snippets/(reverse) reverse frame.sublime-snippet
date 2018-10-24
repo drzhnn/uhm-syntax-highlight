@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Wave "main_fi(frame, 2048-index)"
+]]></content>
+    <tabTrigger>reverse</tabTrigger>
+    <scope>source.uhm</scope>
+    <description>Reverse frame</description>
+</snippet>

@@ -58,7 +58,15 @@
 			</dict>
 			<dict>
 				<key>match</key>
-				<string>\b(Wave|Spectrum|Phase|Seed|Interpolate|Normalize|NumFrames|Envelope|Import|Move)\b</string>
+				<string>^Export\s</string>
+				<key>push</key>
+				<string>import</string>
+				<key>scope</key>
+				<string>storage.type.uhm</string>
+			</dict>
+			<dict>
+				<key>match</key>
+				<string>\b(Wave|Spectrum|Phase|Seed|Interpolate|Normalize|NumFrames|Envelope|Import|Export|Move)\b</string>
 				<key>scope</key>
 				<string>storage.type.uhm</string>
 			</dict>

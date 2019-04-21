@@ -21,7 +21,11 @@ contexts:
       scope: storage.type.uhm
       push: import
 
-    - match: '\b(Wave|Spectrum|Phase|Seed|Interpolate|Normalize|NumFrames|Envelope|Import|Move)\b'
+    - match: '^Export\s'
+      scope: storage.type.uhm
+      push: import
+
+    - match: '\b(Wave|Spectrum|Phase|Seed|Interpolate|Normalize|NumFrames|Envelope|Import|Export|Move)\b'
       scope: storage.type.uhm
 
     - match: '(?i)\b(start|end|to|from|direction|lowest|highest|curve|type|target|blend|base|db|metric|snippets|threshold|weighting)\b'
